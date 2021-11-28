@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link rel="stylesheet" href="/stylesheets/home.css">
+    </head>
+    <body>
+<% layout('layouts/boilerplate')%>
+    <div class="shift text-center">
+        <h1 class="hospital">Hospital Records:</h1>
+        <div class="rec">
+            <a href="/records/new" ">Add Records</a>
+        </div>
+    </div>
+    <div class="show text-center">
+        <% for(let record of records){%>
+            <li ><a href="/records/<%= record._id %>">
+                    <%= record.record %>
+                </a></li>
+            <% }%>
+    </div>
+        
+    </div>
+    </body>
+</html>>

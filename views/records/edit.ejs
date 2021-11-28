@@ -1,0 +1,31 @@
+
+ <% layout('layouts/boilerplate')%>
+   <div class="row">
+   <h1 class="text-center">Edit Records</h1>
+   <div class="col-6 offset-3">
+    <form action="/records/<%=record._id%>?_method=PUT" method="POST" novalidate class="validated-form">
+        <div class="mb-3">
+            <label class="form-label" for="record">Record</label>
+            <input class="form-control" type="text" id="record" name="record[record]" value="<%=record.record %>"required>
+            <div class="valid-feedback">
+                Looks Good!
+            </div>
+        </div>
+        <div class="mb-3">
+            <label class="form-label" for="location">Location</label>
+            <input class="form-control" type="text" id="location" name="record[location]" value="<%=record.location %>"required>
+            <div class="valid-feedback">
+                Looks Good!
+            </div>
+        </div>
+        
+          
+  
+        <div class="mb-3">
+            <button class="btn btn-info">Update Records</button>
+        </div>
+       
+    </form>
+    <a href="/records/<%= record.id%>">Back To Records</a>
+   </div>
+   </div>

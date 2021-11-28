@@ -1,0 +1,35 @@
+<% layout('layouts/boilerplate')%>
+   <div class="row">
+   <h1 class="text-center">New Records</h1>
+   <div class="col-6 offset-3">
+    <form action="/records" method="POST" novalidate class="validated-form">
+        <div class="mb-3">
+            <label class="form-label" for="record">Record</label>
+            <input class="form-control" type="text" id="record" name="record[record]" required>
+            <div class="valid-feedback">
+                Looks Good!
+            </div>
+        </div>
+        <div class="mb-3">
+            <label class="form-label" for="location">Location</label>
+            <input class="form-control" type="text" id="location" name="record[location]" required>
+            <div class="valid-feedback">
+                Looks Good!
+            </div>
+        </div>
+        
+          
+  
+        <div class="mb-3">
+            <button class="btn btn-success">Add Records</button>
+        </div>
+       
+    </form>
+    <a href="/records">All Records</a>
+   </div>
+   </div>
+
+
+  
+
+   

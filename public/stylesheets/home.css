@@ -1,0 +1,106 @@
+body {
+  
+  width: 100%;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+    url("aa.png");
+  background-size: cover;
+  background-position: center;
+  text-shadow: 0 0.05rem 0.1rem rgba(0, 0, 0, 0.5);
+  box-shadow: inset 0 0 5rem rgba(0, 0, 0, 0.5);
+  color:#fff;
+}
+.nav-wrapper{
+  background:black;
+  width: 100%;
+  height: 10vh;
+}
+
+.mb-auto h3{
+  padding-left: 5rem;
+  padding-top: 1.2rem;
+}
+.mb-auto h3 span{
+  color: green;
+}
+.mb-auto h3 span1{
+  color: red;
+}
+.nav-link{
+  padding: 1.7rem 1.5rem;
+  font-weight: 700;
+  color: aqua;
+  margin-left: 0rem;
+}
+.nav-link:hover {
+  color: red;
+  border-bottom-color: blue;
+}
+.nav-link.active {
+  color: white;
+  border-bottom-color: white;
+}
+.btn-secondary,
+.btn-secondary:hover {
+  color: black;
+  text-shadow: white;
+}
+.px-3{
+  text-align: center;
+}
+.px-3 a{
+  background: cadetblue;
+}
+.px-3 h1{
+  text-align: center  ;
+}
+.px-3 h1:hover{
+  color: aqua;
+}
+.px-3 .lead{
+  color: #f1b24a;
+}
+.px-3 .lead:hover{
+  color: wheat;
+}
+.px-3 .lead span1{
+  color:white;
+}
+.px-3 .lead span1:hover{
+  color: yellow;
+}
+.footer{
+  text-align: center;
+  background-color:black;
+  height: 26vh;
+}
+.footer a{
+  padding: 0 2px 4px 6px;
+}
+.hospital{
+  color: #f1b24a;
+}
+.rec a{
+  color:greenyellow;
+  text-transform: uppercase;
+  
+}
+.show a{
+  color: #fff;
+}
+@media only screen and (max-width: 1080px) {
+  .nav-link{
+    padding:0 1rem;
+    font-weight: 700;
+    color: aqua;
+  }
+  .mb-auto h3{
+    padding-left: 1rem;
+    padding-top: .2rem;
+  }
+}
+
+
+
+
+
+
