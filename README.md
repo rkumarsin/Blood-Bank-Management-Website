@@ -1,1 +1,3 @@
 # Blood-Bank-Management-Website
+
+Blood banking is the process that takes place in the lab to make sure that donated blood, or blood products, are safe before they are used in blood transfusions and other medical procedures. Blood banking includes typing the blood for transfusion and testing for infectious diseases.  The aim is to raise global awareness of the need for safe blood and blood products for transfusion and of the critical contribution voluntary, unpaid blood donors make to national health systems.They save millions of lives and improve the health and quality of life of many patients every day.
